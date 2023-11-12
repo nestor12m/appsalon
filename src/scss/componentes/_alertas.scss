@@ -1,0 +1,29 @@
+ @use 'base/variables' as v;
+
+
+ .alertas {
+
+     padding: calc(v.$separacion/5);
+     color: v.$blanco;
+     width: 100%;
+     display: block;
+     margin-bottom: 2rem;
+     text-align: center;
+     font-weight: v.$bold;
+     text-transform: uppercase;
+
+     &.error {
+         background-color: v.$rojo;
+     }
+
+     &.exito {
+         background-color: v.$verde;
+     }
+ }
+
+
+
+ .swal2-popup {
+     font-size: 1.6rem !important;
+     font-family: Georgia, serif;
+ }

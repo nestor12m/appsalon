@@ -1,0 +1,21 @@
+{
+    "name": "model/s",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "Controllers\\": "./controllers",
+            "MVC\\": "./",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "nestor12m",
+            "email": "nestor20martinez@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
